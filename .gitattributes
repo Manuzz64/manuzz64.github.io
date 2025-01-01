@@ -1,6 +1,11 @@
-*.woff2 linguist-vendored
-*.woff linguist-vendored
-*.ttf linguist-vendored
-*.otf linguist-vendored
-*.eot linguist-vendored
-*.svg linguist-vendored
+# Treat font files as binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# Handle other file types
+*.css text
+*.html text
+*.js text

@@ -19,6 +19,17 @@ function playAudio() {
     menu.classList.toggle('active');
   });
 
+  document.addEventListener('DOMContentLoaded', function () {
+    const audio = document.getElementById('audio');
+    if (audio) {
+      audio.play().catch(error => {
+        console.error('Autoplay was blocked:', error);
+      });
+    } else {
+      console.error('Audio element not found!');
+    }
+  });
+
   function detectDevice() {
     const userAgent = navigator.userAgent;
   

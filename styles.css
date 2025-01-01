@@ -1,0 +1,199 @@
+/* Default styles for all devices */
+body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Scale the entire page for mobile devices */
+@media (max-width: 767px) {
+  body {
+    zoom: 1; /* Scale the page by 2.0 */
+    transform: scale(1); /* Alternative scaling */
+    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
+    width: 100%; /* Compensate for the scaling */
+    font-size: 14px;
+  }
+}
+
+h1 {
+  color: rgb(123, 120, 118);
+  text-align: center;
+}
+
+.profile {
+  width: 83px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+  border: ridge;
+  border-color: rgb(70, 70, 70);
+  border-width: 6px;
+}
+
+.username {
+  font-weight: bold;
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+
+.hyperlink-user {
+  text-decoration: none;
+}
+
+em {
+  color: red;
+  font-style: normal;
+}
+
+.post-text {
+  border-color: rgb(227, 0, 0);
+  border-style: hidden hidden hidden ridge;
+  border-width: 6px;
+  width: 90%;
+  max-width: 273px;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.222);
+  color: rgb(175, 175, 175);
+  margin-left: 200px;
+}
+
+.ice {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+/* Styles for mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .profile {
+    width: 60px;
+    margin-right: 5px;
+    border-width: 4px;
+  }
+
+  .post-text {
+    width: 90%;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .ice {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    padding: 5px;
+  }
+}
+
+/* Styles for tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .profile {
+    width: 80px;
+    margin-right: 8px;
+    border-width: 5px;
+  }
+
+  .post-text {
+    width: 90%;
+    max-width: 350px;
+    margin-left: 100px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .ice {
+    width: 450px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+  }
+}
+
+/* Styles for desktops (1024px and above) */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .profile {
+    width: 100px;
+    margin-right: 10px;
+    border-width: 6px;
+  }
+
+  .post-text {
+    width: 90%;
+    max-width: 400px;
+    margin-left: 120px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .ice {
+    width: 500px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  nav a {
+    padding: 10px 15px;
+  }
+  .count {
+    zoom: 2;
+  }
+}

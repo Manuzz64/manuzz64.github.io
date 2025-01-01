@@ -235,19 +235,6 @@ nav a:hover {
 #music-button i {
   margin-right: 8px; /* Space between icon and text */
 }
-
-  @font-face {
-    font-family: 'Dankfield Slant';
-    src: url('fonts/DankfieldSlant.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-  font-family: 'Dankfield Outline Slant';
-  src: url('fonts/DankfieldOutlineSlant.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .sixtyfour{
@@ -325,4 +312,3 @@ nav a:hover {
   font-style: normal;
 }
 
-}

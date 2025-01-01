@@ -112,14 +112,14 @@ nav a:hover {
   }
 
   .profile {
-    width: 60px;
+    width: 80px;
     margin-right: 5px;
     border-width: 4px;
   }
 
   .post-text {
     width: 90%;
-    margin-left: 105px;
+    margin-left: 90px;
     padding: 10px;
     font-size: 14px;
   }

@@ -1,0 +1,6 @@
+*.woff2 linguist-vendored
+*.woff linguist-vendored
+*.ttf linguist-vendored
+*.otf linguist-vendored
+*.eot linguist-vendored
+*.svg linguist-vendored

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="HEHEHEHEH" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <title>Adélio Team</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -31,7 +32,7 @@
       </a>
     </p>
     <audio id="audio" loop>
-      <source src="/Music/Lobby.mp3" type="audio/mpeg">
+      <source src="/music/Lobby.aac" type="audio/mpeg">
       Your browser does not support the audio element.
   </audio>
   <button id="music-button" onclick="toggleAudio()">
@@ -46,5 +47,11 @@
 <script type="text/javascript" src="https://www.free-counters.org/count/gy8p"></script><br>
  <a href='https://www.free-counters.org/'>www.Free-Counters.org</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=ede266e96d7912e2ec6f5c3ecd9d65912bb03e07'></script>
  <script src="script.js"></script>
+ <script>document.addEventListener('DOMContentLoaded', function () {
+  const musicButton = document.getElementById('music-button');
+  if (musicButton) {
+      musicButton.addEventListener('click', toggleAudio);
+  }
+});</script>
   </body>
 </html>

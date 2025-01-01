@@ -46,12 +46,15 @@
 </script>
 <script type="text/javascript" src="https://www.free-counters.org/count/gy8p"></script><br>
  <a href='https://www.free-counters.org/'>www.Free-Counters.org</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=ede266e96d7912e2ec6f5c3ecd9d65912bb03e07'></script>
- <script src="script.js"></script>
  <script>document.addEventListener('DOMContentLoaded', function () {
   const musicButton = document.getElementById('music-button');
   if (musicButton) {
-      musicButton.addEventListener('click', toggleAudio);
+    musicButton.addEventListener('click', toggleAudio);
+  } else {
+    console.error('Music button not found!');
   }
-});</script>
+});
+</script>
+ <script src="script.js" defer></script>
   </body>
 </html>

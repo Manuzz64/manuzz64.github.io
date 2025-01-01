@@ -21,7 +21,7 @@ body {
 h1 {
   color: #d8c023;
   text-align: center;
-  font-family: 'Dankfield Slant', sans-serif;
+  font-family: 'Stalinist One';
   font-size: 50px !important;
   font-weight: 50;
   letter-spacing: 3px;
@@ -318,4 +318,11 @@ nav a:hover {
     "EDPT" 100,
     "EHLT" 12;
 }
+
+.stalinist-one-regular {
+  font-family: "Stalinist One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }

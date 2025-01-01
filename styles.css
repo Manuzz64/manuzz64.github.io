@@ -4,7 +4,6 @@ body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
 
 /* Scale the entire page for mobile devices */

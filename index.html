@@ -7,10 +7,11 @@
     <meta name="description" content="HEHEHEHEH" />
     <title>Adélio Team</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body style="background-color: #313131">
     <div class="container">
-    <h1>Adélio Team</h1>
+    <h1>ADÉLIO TEAM</h1>
     <nav>
       <ul style="list-style-type: none; padding: 0; display: flex; gap: 15px;">
         <li><a href="/batatas.html" style="color: rgb(175, 175, 175); text-decoration: none;">Chico</a></li>
@@ -29,11 +30,13 @@
     <p class="post-text">Haha, estou ONLINE, que fixe!!!</p>
       </a>
     </p>
-    <audio autoplay loop >
-      <source src="/Music/Lobby.aac" type="audio/mpeg">
+    <audio id="audio" loop>
+      <source src="/Music/Lobby.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
   </audio>
-  <button onclick="playAudio()">Play Music</button>
+  <button id="music-button" onclick="toggleAudio()">
+    <i class="fas fa-play"></i> Play Music
+</button>
 </div>
 <script>
   function playAudio() {
@@ -42,5 +45,6 @@
 </script>
 <script type="text/javascript" src="https://www.free-counters.org/count/gy8p"></script><br>
  <a href='https://www.free-counters.org/'>www.Free-Counters.org</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=ede266e96d7912e2ec6f5c3ecd9d65912bb03e07'></script>
+ <script src="script.js"></script>
   </body>
 </html>

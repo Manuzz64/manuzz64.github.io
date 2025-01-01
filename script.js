@@ -82,3 +82,21 @@ window.addEventListener('resize', () => {
     }
   });
 
+  function toggleAudio() {
+    const audio = document.getElementById('audio');
+    const button = document.getElementById('music-button');
+    const icon = button.querySelector('i');
+
+    if (audio.paused) {
+        audio.play();
+        icon.classList.remove('fa-play');
+        icon.classList.add('fa-stop');
+        button.innerHTML = '<i class="fas fa-stop"></i> Stop Music';
+    } else {
+        audio.pause();
+        audio.currentTime = 0; // Reset playback to the start
+        icon.classList.remove('fa-stop');
+        icon.classList.add('fa-play');
+        button.innerHTML = '<i class="fas fa-play"></i> Play Music';
+    }
+}

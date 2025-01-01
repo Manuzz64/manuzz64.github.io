@@ -19,8 +19,12 @@ body {
 }
 
 h1 {
-  color: rgb(123, 120, 118);
+  color: #d8c023;
   text-align: center;
+  font-family: 'Dankfield Slant', sans-serif;
+  font-size: 50px !important;
+  font-weight: 50;
+  letter-spacing: 3px;
 }
 
 .profile {
@@ -37,6 +41,8 @@ h1 {
   font-weight: bold;
   color: rgb(175, 175, 175);
   text-decoration: none;
+  font-family: 'Slackey' !important;
+  letter-spacing: 2px;
 }
 
 .hyperlink-user {
@@ -60,6 +66,8 @@ em {
   background-color: rgba(0, 0, 0, 0.222);
   color: rgb(175, 175, 175);
   margin-left: 200px;
+  font-family: 'Play' !important;
+  letter-spacing: 1px;
 }
 
 .ice {
@@ -82,10 +90,14 @@ nav ul {
 }
 
 nav a {
+  font-family: 'Sixtyfour'; /* Apply font to links */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Make text bold */
   color: rgb(175, 175, 175);
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -196,4 +208,80 @@ nav a:hover {
   .count {
     zoom: 2;
   }
+
+  .music-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding for size */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-family: 'Arial', sans-serif; /* Font family */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.music-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.music-button:active {
+    background-color: #3d8b40; /* Even darker green on click */
+    transform: translateY(0); /* Reset lift on click */
+}
+
+#music-button i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+  @font-face {
+    font-family: 'Dankfield Slant';
+    src: url('fonts/DankfieldSlant.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dankfield Outline Slant';
+  src: url('fonts/DankfieldOutlineSlant.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Atma';
+  src: url('fonts/Atma-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nabla';
+  src: url('fonts/Nabla.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sixtyfour';
+  src: url('fonts/Sixtyfour.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Slackey';
+  src: url('fonts/Slackey-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url('fonts/Play-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 }

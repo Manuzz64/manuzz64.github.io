@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+document.addEventListener('DOMContentLoaded', function () {
     const musicButton = document.getElementById('music-button');
     if (musicButton) {
       musicButton.addEventListener('click', toggleAudio);
     }
   });
   console.log(document.getElementById('music-button'));
-  
+
 function playAudio() {
     const audio = document.querySelector('audio');
     audio.play();
@@ -107,4 +109,4 @@ window.addEventListener('resize', () => {
         icon.classList.add('fa-play');
         button.innerHTML = '<i class="fas fa-play"></i> Play Music';
     }
-}
+}});

@@ -79,7 +79,7 @@ font-family: 'Rajdhani', sans-serif;
 ```jsx
 <Button 
   variant="outline" 
-  className="border-linkin-blue text-linkin-blue hover:bg-linkin-blue hover:text-white transform hover:scale-105 transition-all duration-300"
+  className="border-military-green text-military-green hover:bg-military-green hover:text-white transform hover:scale-105 transition-all duration-300"
 >
   Secondary Action
 </Button>

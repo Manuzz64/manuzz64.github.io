@@ -12,11 +12,11 @@ A comprehensive template system inspired by nu-metal aesthetics, featuring Slipk
 --blood-dark: #990004;        /* Darkest primary variant */
 ```
 
-### Secondary Colors (Linkin Park-inspired Blue Palette)
+### Secondary Colors (Military Camouflage Green Palette)
 ```css
---linkin-blue: #003d7a;       /* Deep blue */
---electric-blue: #0066cc;     /* Medium blue */
---neon-blue: #00aaff;         /* Bright accent blue */
+--camo-dark: #2d4a2b;         /* Dark camouflage green */
+--military-green: #4a6741;    /* Medium military green */
+--forest-green: #6b8e5a;      /* Light forest green */
 ```
 
 ### Neutral Colors (Industrial Grayscale)

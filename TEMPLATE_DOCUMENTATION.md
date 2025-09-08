@@ -154,7 +154,7 @@ font-family: 'Rajdhani', sans-serif;
 ### Badges
 ```jsx
 <Badge className="bg-slipknot-red">Primary</Badge>
-<Badge variant="outline" className="border-linkin-blue text-linkin-blue">Secondary</Badge>
+<Badge variant="outline" className="border-military-green text-military-green">Secondary</Badge>
 <Badge variant="secondary" className="bg-steel-gray">Neutral</Badge>
 ```
 

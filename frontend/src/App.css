@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Courier+Prime:wght@400;700&display=swap');
 
 .App {
   font-family: 'Rajdhani', sans-serif;
@@ -6,6 +6,11 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', monospace;
+}
+
+/* Monospace for code/terminal feel */
+.font-mono {
+  font-family: 'Courier Prime', monospace;
 }
 
 /* Custom scrollbar */
@@ -30,6 +35,57 @@ h1, h2, h3, h4, h5, h6 {
 ::selection {
   background: #ff0006;
   color: #ffffff;
+}
+
+/* Web 1.0 / Geocities inspired styles */
+.geocities-border {
+  border: 2px solid #ff0006;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(255, 0, 6, 0.1) 10px,
+    rgba(255, 0, 6, 0.1) 20px
+  );
+}
+
+/* Retro table styling */
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  font-family: 'Courier Prime', monospace;
+}
+
+/* Blinking text animation for that 2000s feel */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+/* Glitch effect */
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+.glitch {
+  animation: glitch 0.3s infinite;
+}
+
+/* Raw, unpolished hover effects */
+.raw-hover:hover {
+  transform: rotate(-1deg) scale(1.05);
+  filter: contrast(1.2) brightness(1.1);
 }
 
 /* Nu-Metal specific styles */
@@ -83,8 +139,8 @@ textarea:focus-visible {
   background-clip: text;
 }
 
-.text-gradient-blue {
-  background: linear-gradient(135deg, #00aaff 0%, #003d7a 100%);
+.text-gradient-green {
+  background: linear-gradient(135deg, #6b8e5a 0%, #2d4a2b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -127,10 +183,40 @@ textarea:focus-visible {
   }
 }
 
+/* Web 1.0 aesthetic elements */
+.retro-border {
+  border: 2px inset #c0c0c0;
+}
+
+.retro-button {
+  border: 2px outset #c0c0c0;
+  background: #e0e0e0;
+  color: #000;
+}
+
+.retro-button:hover {
+  border: 2px inset #c0c0c0;
+}
+
+/* ASCII art styling */
+pre {
+  font-family: 'Courier Prime', monospace;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
 /* Responsive improvements */
 @media (max-width: 768px) {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  
+  table {
+    font-size: 0.8rem;
+  }
+  
+  .text-6xl {
+    font-size: 3rem;
   }
 }

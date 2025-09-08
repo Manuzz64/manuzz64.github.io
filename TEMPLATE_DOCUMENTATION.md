@@ -97,7 +97,7 @@ font-family: 'Rajdhani', sans-serif;
 
 #### Gradient Button
 ```jsx
-<Button className="bg-gradient-to-r from-slipknot-red to-crimson-core hover:from-crimson-core hover:to-slipknot-red transform hover:scale-105 transition-all duration-300">
+<Button className="bg-gradient-to-r from-slipknot-red to-camo-dark hover:from-camo-dark hover:to-slipknot-red transform hover:scale-105 transition-all duration-300">
   Premium Action
 </Button>
 ```

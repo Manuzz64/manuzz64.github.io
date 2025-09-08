@@ -136,7 +136,7 @@ font-family: 'Rajdhani', sans-serif;
 #### Input Fields
 ```jsx
 <Input 
-  className="bg-steel-gray border-silver/30 text-silver focus:border-slipknot-red transition-colors duration-300"
+  className="bg-steel-gray border-silver/30 text-silver focus:border-military-green transition-colors duration-300"
   placeholder="Enter text..."
 />
 ```

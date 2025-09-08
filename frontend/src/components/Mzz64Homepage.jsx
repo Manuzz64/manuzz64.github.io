@@ -16,8 +16,7 @@ import {
 } from 'lucide-react';
 
 const Mzz64Homepage = () => {
-  const [visitorCount, setVisitorCount] = useState(1337);
-  const [currentTime, setCurrentTime] = useState(new Date().toLocaleString());
+  const [activeDemo, setActiveDemo] = useState('colors');
   const [glitchText, setGlitchText] = useState('Mzz64');
 
   // Update time every second for that 2000s web feel

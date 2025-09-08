@@ -89,11 +89,9 @@ const Mzz64Homepage = () => {
         <div className="flex justify-between items-center text-xs">
           <div className="flex gap-4">
             <span className="text-military-green">◉ ONLINE</span>
-            <span className="text-silver">Last Updated: {currentTime}</span>
           </div>
           <div className="flex gap-4">
-            <span className="text-slipknot-red">Visitors: {visitorCount.toLocaleString()}</span>
-            <span className="text-silver">Since 2000</span>
+            <span className="text-silver">Since 2009</span>
           </div>
         </div>
       </div>

@@ -119,7 +119,7 @@ font-family: 'Rajdhani', sans-serif;
 
 #### Gradient Card
 ```jsx
-<Card className="bg-gradient-to-br from-charcoal to-steel-gray border-linkin-blue transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-linkin-blue/20">
+<Card className="bg-gradient-to-br from-charcoal to-steel-gray border-military-green transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-military-green/20">
   {/* Content */}
 </Card>
 ```

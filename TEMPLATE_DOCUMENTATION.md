@@ -1,7 +1,7 @@
 # Nu-Metal Template System Documentation
 
 ## 🎸 Overview
-A comprehensive template system inspired by nu-metal aesthetics, featuring Slipknot red, Linkin Park blues, and industrial design elements with subtle animations.
+A comprehensive template system inspired by nu-metal aesthetics, featuring Slipknot red, military camouflage greens, and industrial design elements with subtle animations.
 
 ## 🎨 Color Palette
 

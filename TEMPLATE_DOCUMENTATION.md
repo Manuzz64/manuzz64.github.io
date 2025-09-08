@@ -255,9 +255,9 @@ Add these to your CSS file for easy theme customization:
   --blood-dark: #990004;
   
   /* Secondary Colors */
-  --linkin-blue: #003d7a;
-  --electric-blue: #0066cc;
-  --neon-blue: #00aaff;
+  --camo-dark: #2d4a2b;
+  --military-green: #4a6741;
+  --forest-green: #6b8e5a;
   
   /* Neutral Colors */
   --void-black: #000000;

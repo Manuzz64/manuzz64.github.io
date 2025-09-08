@@ -235,7 +235,7 @@ font-family: 'Rajdhani', sans-serif;
 ```jsx
 <section className="bg-charcoal py-16">
   <div className="container mx-auto px-6">
-    <h2 className="text-4xl font-bold text-linkin-blue mb-8 text-center">Section Title</h2>
+    <h2 className="text-4xl font-bold text-military-green mb-8 text-center">Section Title</h2>
     <div className="grid md:grid-cols-3 gap-8">
       {/* Use card components here */}
     </div>

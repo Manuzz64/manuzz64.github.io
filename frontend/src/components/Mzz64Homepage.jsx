@@ -19,22 +19,6 @@ const Mzz64Homepage = () => {
   const [activeDemo, setActiveDemo] = useState('colors');
   const [glitchText, setGlitchText] = useState('Mzz64');
 
-  // Update time every second for that 2000s web feel
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentTime(new Date().toLocaleString());
-    }, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
-  // Random visitor count changes for that old web feel
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setVisitorCount(prev => prev + Math.floor(Math.random() * 3));
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
-
   // Glitch effect for name
   useEffect(() => {
     const glitchInterval = setInterval(() => {

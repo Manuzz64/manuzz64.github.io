@@ -1,4 +1,4 @@
-// Nu-Metal Template System Mock Data
+// Nu-Metal Template System Mock Data with Camo Greens
 export const templateData = {
   // Color Palette with HEX codes
   colors: {
@@ -8,9 +8,9 @@ export const templateData = {
       bloodDark: '#990004'
     },
     secondary: {
-      linkinBlue: '#003d7a',
-      electricBlue: '#0066cc',
-      neonBlue: '#00aaff'
+      camoDark: '#2d4a2b',
+      militaryGreen: '#4a6741',
+      forestGreen: '#6b8e5a'
     },
     neutrals: {
       voidBlack: '#000000',
@@ -21,9 +21,9 @@ export const templateData = {
     },
     gradients: {
       redStorm: 'linear-gradient(135deg, #ff0006 0%, #990004 100%)',
-      blueVoid: 'linear-gradient(135deg, #003d7a 0%, #000000 100%)',
+      camoVoid: 'linear-gradient(135deg, #2d4a2b 0%, #000000 100%)',
       metallic: 'linear-gradient(135deg, #2d2d2d 0%, #c0c0c0 50%, #2d2d2d 100%)',
-      neonPulse: 'linear-gradient(135deg, #00aaff 0%, #003d7a 100%)'
+      militaryFade: 'linear-gradient(135deg, #6b8e5a 0%, #2d4a2b 100%)'
     }
   },
 
@@ -53,8 +53,8 @@ export const templateData = {
       },
       {
         name: 'Secondary',
-        class: 'border-linkin-blue text-linkin-blue hover:bg-linkin-blue hover:text-white transform hover:scale-105 transition-all duration-300',
-        description: 'Outline button with Linkin Park blue'
+        class: 'border-military-green text-military-green hover:bg-military-green hover:text-white transform hover:scale-105 transition-all duration-300',
+        description: 'Outline button with military green'
       },
       {
         name: 'Ghost',
@@ -63,7 +63,7 @@ export const templateData = {
       },
       {
         name: 'Gradient',
-        class: 'bg-gradient-to-r from-slipknot-red to-crimson-core hover:from-crimson-core hover:to-slipknot-red transform hover:scale-105 transition-all duration-300',
+        class: 'bg-gradient-to-r from-slipknot-red to-camo-dark hover:from-camo-dark hover:to-slipknot-red transform hover:scale-105 transition-all duration-300',
         description: 'Eye-catching gradient button'
       }
     ],
@@ -75,7 +75,7 @@ export const templateData = {
       },
       {
         name: 'Gradient',
-        class: 'bg-gradient-to-br from-charcoal to-steel-gray border-linkin-blue transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-linkin-blue/20',
+        class: 'bg-gradient-to-br from-charcoal to-steel-gray border-military-green transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-military-green/20',
         description: 'Enhanced card with gradient background'
       },
       {
@@ -92,7 +92,7 @@ export const templateData = {
       'transform hover:scale-105 transition-all duration-300',
       'hover:shadow-lg hover:shadow-slipknot-red/50 transition-all duration-300',
       'transform hover:rotate-3 transition-all duration-300',
-      'hover:bg-gradient-to-r hover:from-slipknot-red hover:to-linkin-blue transition-all duration-500'
+      'hover:bg-gradient-to-r hover:from-slipknot-red hover:to-military-green transition-all duration-500'
     ],
     utility: [
       'animate-pulse',
@@ -107,9 +107,9 @@ export const templateData = {
     '--slipknot-red': '#ff0006',
     '--crimson-core': '#cc0005',
     '--blood-dark': '#990004',
-    '--linkin-blue': '#003d7a',
-    '--electric-blue': '#0066cc',
-    '--neon-blue': '#00aaff',
+    '--camo-dark': '#2d4a2b',
+    '--military-green': '#4a6741',
+    '--forest-green': '#6b8e5a',
     '--void-black': '#000000',
     '--charcoal': '#1a1a1a',
     '--steel-gray': '#2d2d2d',
@@ -121,7 +121,7 @@ export const templateData = {
   examples: {
     hero: `
       <div className="bg-gradient-to-br from-black via-charcoal to-black text-silver">
-        <h1 className="text-6xl font-black bg-gradient-to-r from-slipknot-red to-linkin-blue bg-clip-text text-transparent">
+        <h1 className="text-6xl font-black bg-gradient-to-r from-slipknot-red to-military-green bg-clip-text text-transparent">
           NU-METAL
         </h1>
       </div>

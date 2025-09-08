@@ -24,7 +24,7 @@ const TemplateShowcase = () => {
   const [activeDemo, setActiveDemo] = useState('colors');
   const [isPlaying, setIsPlaying] = useState(false);
   
-  // Nu-Metal Color Palette
+  // Nu-Metal Color Palette with Camo Greens
   const colorPalette = {
     primary: {
       slipknotRed: '#ff0006',
@@ -32,9 +32,9 @@ const TemplateShowcase = () => {
       bloodDark: '#990004'
     },
     secondary: {
-      linkinBlue: '#003d7a',
-      electricBlue: '#0066cc',
-      neonBlue: '#00aaff'
+      camoDark: '#2d4a2b',
+      militaryGreen: '#4a6741',
+      forestGreen: '#6b8e5a'
     },
     neutrals: {
       voidBlack: '#000000',
@@ -45,9 +45,9 @@ const TemplateShowcase = () => {
     },
     gradients: {
       redStorm: 'linear-gradient(135deg, #ff0006 0%, #990004 100%)',
-      blueVoid: 'linear-gradient(135deg, #003d7a 0%, #000000 100%)',
+      camoVoid: 'linear-gradient(135deg, #2d4a2b 0%, #000000 100%)',
       metallic: 'linear-gradient(135deg, #2d2d2d 0%, #c0c0c0 50%, #2d2d2d 100%)',
-      neonPulse: 'linear-gradient(135deg, #00aaff 0%, #003d7a 100%)'
+      militaryFade: 'linear-gradient(135deg, #6b8e5a 0%, #2d4a2b 100%)'
     }
   };
 
@@ -63,7 +63,7 @@ const TemplateShowcase = () => {
         <div className="container mx-auto px-6 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block">
-              <h1 className="text-6xl font-black mb-6 bg-gradient-to-r from-slipknot-red to-linkin-blue bg-clip-text text-transparent animate-pulse-slow">
+              <h1 className="text-6xl font-black mb-6 bg-gradient-to-r from-slipknot-red to-military-green bg-clip-text text-transparent animate-pulse-slow">
                 NU-METAL
               </h1>
               <div className="text-2xl font-light tracking-widest text-silver/80 mb-8">
@@ -73,7 +73,7 @@ const TemplateShowcase = () => {
             
             <p className="text-xl text-silver/70 max-w-2xl mx-auto mb-12 leading-relaxed">
               A comprehensive template system inspired by nu-metal aesthetics, featuring Slipknot red, 
-              Linkin Park blues, and industrial design elements with subtle animations.
+              military camouflage greens, and industrial design elements with subtle animations.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center">
@@ -88,7 +88,7 @@ const TemplateShowcase = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-linkin-blue text-linkin-blue hover:bg-linkin-blue hover:text-white transform hover:scale-105 transition-all duration-300"
+                className="border-military-green text-military-green hover:bg-military-green hover:text-white transform hover:scale-105 transition-all duration-300"
                 onClick={() => setActiveDemo('colors')}
               >
                 <Palette className="mr-2 h-5 w-5" />
@@ -149,8 +149,8 @@ const TemplateShowcase = () => {
 
               <Card className="bg-charcoal border-steel-gray">
                 <CardHeader>
-                  <CardTitle className="text-linkin-blue">Secondary Colors</CardTitle>
-                  <CardDescription>Linkin Park-inspired blue palette</CardDescription>
+                  <CardTitle className="text-military-green">Secondary Colors</CardTitle>
+                  <CardDescription>Military camouflage green palette</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -195,7 +195,7 @@ const TemplateShowcase = () => {
 
               <Card className="bg-charcoal border-steel-gray">
                 <CardHeader>
-                  <CardTitle className="text-neon-blue">Gradient Presets</CardTitle>
+                  <CardTitle className="text-forest-green">Gradient Presets</CardTitle>
                   <CardDescription>Ready-to-use gradient combinations</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -232,13 +232,13 @@ const TemplateShowcase = () => {
                     <Button className="bg-slipknot-red hover:bg-slipknot-red/80 transform hover:scale-105 transition-all duration-300">
                       Primary
                     </Button>
-                    <Button variant="outline" className="border-linkin-blue text-linkin-blue hover:bg-linkin-blue hover:text-white transform hover:scale-105 transition-all duration-300">
+                    <Button variant="outline" className="border-military-green text-military-green hover:bg-military-green hover:text-white transform hover:scale-105 transition-all duration-300">
                       Secondary
                     </Button>
                     <Button variant="ghost" className="hover:bg-steel-gray transform hover:scale-105 transition-all duration-300">
                       Ghost
                     </Button>
-                    <Button className="bg-gradient-to-r from-slipknot-red to-crimson-core hover:from-crimson-core hover:to-slipknot-red transform hover:scale-105 transition-all duration-300">
+                    <Button className="bg-gradient-to-r from-slipknot-red to-camo-dark hover:from-camo-dark hover:to-slipknot-red transform hover:scale-105 transition-all duration-300">
                       Gradient
                     </Button>
                   </div>
@@ -248,7 +248,7 @@ const TemplateShowcase = () => {
               {/* Cards Section */}
               <Card className="bg-charcoal border-steel-gray">
                 <CardHeader>
-                  <CardTitle className="text-linkin-blue">Card Layouts</CardTitle>
+                  <CardTitle className="text-military-green">Card Layouts</CardTitle>
                   <CardDescription>Different card styles for content display</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -263,9 +263,9 @@ const TemplateShowcase = () => {
                       </CardContent>
                     </Card>
 
-                    <Card className="bg-gradient-to-br from-charcoal to-steel-gray border-linkin-blue transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-linkin-blue/20">
+                    <Card className="bg-gradient-to-br from-charcoal to-steel-gray border-military-green transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-military-green/20">
                       <CardHeader>
-                        <CardTitle className="text-linkin-blue">Gradient Card</CardTitle>
+                        <CardTitle className="text-military-green">Gradient Card</CardTitle>
                         <CardDescription>Enhanced with gradients</CardDescription>
                       </CardHeader>
                       <CardContent>
@@ -289,7 +289,7 @@ const TemplateShowcase = () => {
               {/* Form Elements */}
               <Card className="bg-charcoal border-steel-gray">
                 <CardHeader>
-                  <CardTitle className="text-neon-blue">Form Elements</CardTitle>
+                  <CardTitle className="text-forest-green">Form Elements</CardTitle>
                   <CardDescription>Input fields, switches, and controls</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -310,7 +310,7 @@ const TemplateShowcase = () => {
                           id="password" 
                           type="password" 
                           placeholder="••••••••"
-                          className="bg-steel-gray border-silver/30 text-silver focus:border-linkin-blue transition-colors duration-300"
+                          className="bg-steel-gray border-silver/30 text-silver focus:border-military-green transition-colors duration-300"
                         />
                       </div>
                     </div>
@@ -325,7 +325,7 @@ const TemplateShowcase = () => {
                       </div>
                       <div className="flex flex-wrap gap-2">
                         <Badge className="bg-slipknot-red">Primary</Badge>
-                        <Badge variant="outline" className="border-linkin-blue text-linkin-blue">Secondary</Badge>
+                        <Badge variant="outline" className="border-military-green text-military-green">Secondary</Badge>
                         <Badge variant="secondary" className="bg-steel-gray">Neutral</Badge>
                       </div>
                     </div>
@@ -349,7 +349,7 @@ const TemplateShowcase = () => {
                     <p className="text-silver/70 font-mono text-sm">text-5xl font-black</p>
                   </div>
                   <div>
-                    <h2 className="text-4xl font-bold text-linkin-blue mb-2">Heading 2</h2>
+                    <h2 className="text-4xl font-bold text-military-green mb-2">Heading 2</h2>
                     <p className="text-silver/70 font-mono text-sm">text-4xl font-bold</p>
                   </div>
                   <div>
@@ -378,7 +378,7 @@ const TemplateShowcase = () => {
             <div className="grid gap-8">
               <Card className="bg-charcoal border-steel-gray">
                 <CardHeader>
-                  <CardTitle className="text-neon-blue">Animation Classes</CardTitle>
+                  <CardTitle className="text-forest-green">Animation Classes</CardTitle>
                   <CardDescription>CSS animation utilities and examples</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -389,12 +389,12 @@ const TemplateShowcase = () => {
                       <p className="text-silver/70 text-sm font-mono">animate-pulse</p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-linkin-blue rounded-lg mx-auto mb-4 animate-bounce"></div>
+                      <div className="w-16 h-16 bg-military-green rounded-lg mx-auto mb-4 animate-bounce"></div>
                       <p className="text-silver font-medium">Bounce</p>
                       <p className="text-silver/70 text-sm font-mono">animate-bounce</p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-gradient-to-r from-slipknot-red to-linkin-blue rounded-lg mx-auto mb-4 animate-spin"></div>
+                      <div className="w-16 h-16 bg-gradient-to-r from-slipknot-red to-military-green rounded-lg mx-auto mb-4 animate-spin"></div>
                       <p className="text-silver font-medium">Spin</p>
                       <p className="text-silver/70 text-sm font-mono">animate-spin</p>
                     </div>
@@ -413,7 +413,7 @@ const TemplateShowcase = () => {
                       <Button className="w-full bg-steel-gray hover:bg-slipknot-red transform hover:scale-105 transition-all duration-300">
                         Scale on Hover
                       </Button>
-                      <Button className="w-full bg-steel-gray hover:bg-linkin-blue hover:shadow-lg hover:shadow-linkin-blue/50 transition-all duration-300">
+                      <Button className="w-full bg-steel-gray hover:bg-military-green hover:shadow-lg hover:shadow-military-green/50 transition-all duration-300">
                         Glow Effect
                       </Button>
                     </div>
@@ -421,7 +421,7 @@ const TemplateShowcase = () => {
                       <div className="p-4 bg-steel-gray rounded-lg transform hover:rotate-3 transition-all duration-300 cursor-pointer">
                         <p className="text-silver">Rotate on Hover</p>
                       </div>
-                      <div className="p-4 bg-steel-gray rounded-lg hover:bg-gradient-to-r hover:from-slipknot-red hover:to-linkin-blue transition-all duration-500 cursor-pointer">
+                      <div className="p-4 bg-steel-gray rounded-lg hover:bg-gradient-to-r hover:from-slipknot-red hover:to-military-green transition-all duration-500 cursor-pointer">
                         <p className="text-silver">Gradient Transition</p>
                       </div>
                     </div>

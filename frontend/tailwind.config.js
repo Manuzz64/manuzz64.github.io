@@ -53,13 +53,13 @@ module.exports = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-  			// Nu-Metal Color Palette
+  			// Nu-Metal Color Palette with Camo Greens
   			'slipknot-red': '#ff0006',
   			'crimson-core': '#cc0005',
   			'blood-dark': '#990004',
-  			'linkin-blue': '#003d7a',
-  			'electric-blue': '#0066cc',
-  			'neon-blue': '#00aaff',
+  			'camo-dark': '#2d4a2b',
+  			'military-green': '#4a6741',
+  			'forest-green': '#6b8e5a',
   			'void-black': '#000000',
   			'charcoal': '#1a1a1a',
   			'steel-gray': '#2d2d2d',

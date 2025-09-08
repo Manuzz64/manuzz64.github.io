@@ -224,7 +224,7 @@ font-family: 'Rajdhani', sans-serif;
       <div className="text-slipknot-red font-black text-xl">LOGO</div>
       <div className="space-x-6">
         <a className="text-silver hover:text-slipknot-red transition-colors duration-300">Home</a>
-        <a className="text-silver hover:text-linkin-blue transition-colors duration-300">About</a>
+        <a className="text-silver hover:text-military-green transition-colors duration-300">About</a>
       </div>
     </div>
   </div>

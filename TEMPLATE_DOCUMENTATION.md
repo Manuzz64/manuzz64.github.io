@@ -33,14 +33,14 @@ A comprehensive template system inspired by nu-metal aesthetics, featuring Slipk
 /* Red Storm Gradient */
 background: linear-gradient(135deg, #ff0006 0%, #990004 100%);
 
-/* Blue Void Gradient */
-background: linear-gradient(135deg, #003d7a 0%, #000000 100%);
+/* Camo Void Gradient */
+background: linear-gradient(135deg, #2d4a2b 0%, #000000 100%);
 
 /* Metallic Gradient */
 background: linear-gradient(135deg, #2d2d2d 0%, #c0c0c0 50%, #2d2d2d 100%);
 
-/* Neon Pulse Gradient */
-background: linear-gradient(135deg, #00aaff 0%, #003d7a 100%);
+/* Military Fade Gradient */
+background: linear-gradient(135deg, #6b8e5a 0%, #2d4a2b 100%);
 ```
 
 ## 📝 Typography System

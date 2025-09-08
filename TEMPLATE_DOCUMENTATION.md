@@ -203,7 +203,7 @@ font-family: 'Rajdhani', sans-serif;
 ```jsx
 <div className="bg-gradient-to-br from-black via-charcoal to-black text-silver">
   <div className="container mx-auto px-6 py-20">
-    <h1 className="text-6xl font-black bg-gradient-to-r from-slipknot-red to-linkin-blue bg-clip-text text-transparent animate-pulse-slow">
+    <h1 className="text-6xl font-black bg-gradient-to-r from-slipknot-red to-military-green bg-clip-text text-transparent animate-pulse-slow">
       NU-METAL
     </h1>
     <p className="text-xl text-silver/70 max-w-2xl mx-auto mb-12">

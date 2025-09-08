@@ -52,7 +52,19 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			// Nu-Metal Color Palette
+  			'slipknot-red': '#ff0006',
+  			'crimson-core': '#cc0005',
+  			'blood-dark': '#990004',
+  			'linkin-blue': '#003d7a',
+  			'electric-blue': '#0066cc',
+  			'neon-blue': '#00aaff',
+  			'void-black': '#000000',
+  			'charcoal': '#1a1a1a',
+  			'steel-gray': '#2d2d2d',
+  			'silver': '#c0c0c0',
+  			'platinum': '#e5e5e5'
   		},
   		keyframes: {
   			'accordion-down': {
@@ -70,11 +82,20 @@ module.exports = {
   				to: {
   					height: '0'
   				}
+  			},
+  			'pulse-slow': {
+  				'0%, 100%': {
+  					opacity: '1'
+  				},
+  				'50%': {
+  					opacity: '0.7'
+  				}
   			}
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+  			'pulse-slow': 'pulse-slow 3s ease-in-out infinite'
   		}
   	}
   },
